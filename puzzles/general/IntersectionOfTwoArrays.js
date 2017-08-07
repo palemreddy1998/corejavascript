@@ -8,7 +8,26 @@ function intersection(firstArray,secondArray) {
     var intersectionMap = new Map();
 
     firstArray.forEach(function (element) {
-        console.log(element)
+        if(secondArray.forEach(function(element1) {
+                if (element1==element) {
+                    //console.log("intersect elements ->" + element)
+                    intersectionMap.set(element, element);
+                }
+            })) {
 
+        }
     });
+
+    console.log(intersectionMap);
+
+    var unionSet = new Set();
+    var unionArray = firstArray.concat(secondArray);
+
+    var unionSet;
+    unionArray.forEach(function (element) {
+        if(!unionSet.has(element))
+        unionSet.add(element);
+    });
+
+    console.log(unionSet);
 }
