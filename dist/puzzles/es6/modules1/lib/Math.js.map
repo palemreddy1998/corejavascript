@@ -1,1 +1,0 @@
-{"version":3,"sources":["../../../../../puzzles/es6/modules1/lib/Math.js"],"names":["sum","x","y","pi"],"mappings":";;;;;QACiBA,G,GAAAA,G;AADjB;AACQ,SAASA,GAAT,CAAcC,CAAd,EAAiBC,CAAjB,EAAoB;AAAE,SAAOD,IAAIC,CAAX;AAAc;AACrC,IAAIC,kBAAK,QAAT","file":"Math.js","sourcesContent":["//  lib/math.js\nexport  function sum (x, y) { return x + y }\nexport var pi = 3.141593"]}
