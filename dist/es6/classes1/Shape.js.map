@@ -1,0 +1,1 @@
+{"version":3,"sources":["../../../es6/classes1/Shape.js"],"names":["Shape","id","console","log"],"mappings":";;;;IAAMA,K,GACF,eAAYC,EAAZ,EAAe;AAAA;;AACX,SAAKA,EAAL,GAAUA,EAAV;AACAC,YAAQC,GAAR,CAAY,mBAAZ;AACH,C","file":"Shape.js","sourcesContent":["class Shape {\n    constructor(id){\n        this.id = id;\n        console.log(\"shape constructor\");\n    }\n}"]}
