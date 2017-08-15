@@ -1,2 +1,3 @@
 # corejavascript
-# useful interview questions and puzzles
+# Useful interview questions and puzzles
+# ES6 features
