@@ -1,0 +1,15 @@
+console.log(Number.isInteger(1.05))
+console.log(Number.isInteger(1))
+console.log(Number.isInteger(-3.1))
+console.log(Number.isInteger(-3))
+//console.log(Number.isSafeInteger(number))
+console.log(Number.MIN_SAFE_INTEGER)
+console.log(Number.MAX_SAFE_INTEGER)
+
+console.log(Number.isFinite(Infinity))
+console.log(Number.isFinite(-Infinity))
+console.log(Number.isFinite(NaN))
+console.log(Number.isFinite(123))
+//The advantage of this method is that it does not coerce its parameter to number (whereas the global function does):
+console.log(Number.isFinite('123'))
+console.log(isFinite('123'))
