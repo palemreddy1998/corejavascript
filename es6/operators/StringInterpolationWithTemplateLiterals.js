@@ -19,3 +19,8 @@ const HTML5_SKELETON = `
     </html>`;
 
 console.log(HTML5_SKELETON);
+
+//Strings are iterable, which means that you can use for-of to iterate over their characters:
+for (const ch of 'abc') {
+    console.log(ch);
+}
