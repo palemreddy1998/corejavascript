@@ -1,8 +1,6 @@
-function isIso(firstString,secondString) {
-    console.log("firstString->"+firstString+"secondString->"+secondString)
-    if(firstString.length!==secondString.length){
-        return false;
-    }
+function palindrome(str){
+    let array1 = str.split("").map(String);
+    console.log(arry1)
 
 }
-console.log(isIso("abc","bbc"));
+console.log(palindrome(121))

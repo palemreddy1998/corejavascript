@@ -6,7 +6,7 @@ reverse(str2);
 function reverse(str2) {
     console.log(str2);
     var array1 = str2.split("").map(String);
-    //console.log(array1);
+    console.log(array1);
 
     let result="";
     for(let i=(array1.length-1);i>=0;i--){
