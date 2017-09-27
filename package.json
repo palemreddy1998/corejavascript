@@ -5,7 +5,9 @@
   "main": "puzzles/general/FactorialTest.js",
   "dependencies": {
     "file-system": "^2.2.2",
+    "modulex-promise": "^1.1.7",
     "protractor": "^5.1.1",
+    "sleep-promise": "^2.0.0",
     "w3c-xmlhttprequest": "^2.1.2"
   },
   "devDependencies": {
